@@ -102,7 +102,7 @@ const CurrencyConverter = () => {
       <ul
         className="nav nav-tabs capsuled"
         role="tablist"
-        style={{ zIndex: 2, marginTop: 27 }}
+        style={{ zIndex: 2, marginTop: 0 }}
       >
         <li className="nav-item">
           <Link className="nav-link active" to="/currency/converter">

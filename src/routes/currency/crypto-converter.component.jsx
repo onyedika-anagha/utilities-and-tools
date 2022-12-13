@@ -112,7 +112,7 @@ const CryptoConverter = () => {
       <ul
         className="nav nav-tabs capsuled"
         role="tablist"
-        style={{ zIndex: 2, marginTop: 27 }}
+        style={{ zIndex: 2, marginTop: 0 }}
       >
         <li className="nav-item">
           <Link className="nav-link " to="/currency/converter">
@@ -231,7 +231,7 @@ const CryptoConverter = () => {
             </div>
           </div>
         </div>
-        <div className="section mt-2">
+        <div className="section mt-6">
           <div className="row fontsize-caption">
             <div className="col">
               <b>Result</b>

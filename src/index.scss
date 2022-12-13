@@ -152,13 +152,14 @@ li {
 #shape-one {
   top: 30%;
   // left: 0;
-  width: 390px;
+  width: 320px;
   position: absolute;
-  height: 390px;
+  height: 320px;
   background: #ff0099;
   background-image: linear-gradient(45deg, #3023ae 0%, #ff0099 100%);
   border-radius: 30% 70% 70% 30%/30% 30% 70% 70%;
   box-shadow: -10vmin 10vmin #ffffff12;
+  z-index: 0;
 }
 
 .fs-14 {
