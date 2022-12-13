@@ -1,0 +1,72 @@
+.dark_mode_active {
+  .back-to-top-btn {
+    background-color: #fff;
+    color: #000;
+  }
+  .header {
+    @media only screen and (max-width: 1024px) {
+      #main-nav {
+        background: rgb(0, 0, 0, 0.24);
+      }
+    }
+    #main-nav {
+      ul {
+        li {
+          a {
+            color: #f0f0f0 !important;
+          }
+        }
+      }
+    }
+  }
+  .documents.style-2 .document-box {
+    background: linear-gradient(
+      180deg,
+      rgba(26, 15, 106, 0) 0%,
+      #e6e6e621 86.87%
+    );
+    a {
+      color: #fff !important;
+    }
+  }
+  h1,
+  h2,
+  h3,
+  h4,
+  h5,
+  h6,
+  p {
+    color: #f0f0f0 !important;
+  }
+  .banner-top.style-1 .banner-top__content .desc {
+    color: #f6f6f6 !important;
+  }
+}
+body.dark-mode {
+  .exchange-group {
+    select {
+      // background: #030108 !important;
+      option {
+        outline-color: #030108 !important;
+        white-space: normal !important;
+        background: #030108 !important;
+      }
+    }
+  }
+
+  .exchange-heading .exchange-wallet-info {
+    color: #a5a5a5;
+  }
+  .nav-tabs.capsuled {
+    backdrop-filter: blur(4px);
+    .nav-item .nav-link {
+      color: #c9bbe1 !important;
+    }
+  }
+
+  .header .header__right .mobile-button::before,
+  .header .header__right .mobile-button::after,
+  .header .header__right .mobile-button span {
+    background-color: #e7e7e7;
+  }
+}
