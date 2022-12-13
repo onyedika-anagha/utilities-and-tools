@@ -28,7 +28,6 @@ const CurrencyConverter = () => {
         return { name: a[0], rate: a[1] };
       });
     setItems(arrMap);
-    console.log("arrMap: ", arrMap);
   };
 
   const getData = async () => {
@@ -97,10 +96,6 @@ const CurrencyConverter = () => {
         </div>
       </div>
     );
-  console.log("====================================");
-  console.log(selected);
-  console.log("====================================");
-
   return (
     <div id="app-body">
       <ShapeOne />

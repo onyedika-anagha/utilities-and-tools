@@ -32,7 +32,7 @@ const Header = () => {
         id="header_main"
         className="header"
         style={{
-          position: isOpen && isMobile ? "unset" : "absolute",
+          position: isOpen && isMobile ? "unset" : "relative",
         }}
       >
         <div className="container">

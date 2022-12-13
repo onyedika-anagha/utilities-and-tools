@@ -3,11 +3,7 @@ import { NavLink, useLocation } from "react-router-dom";
 const ConverterNav = () => {
   const { pathname } = useLocation();
   return (
-    <ul
-      className="nav nav-tabs capsuled"
-      role="tablist"
-      style={{ zIndex: 2, marginTop: 27 }}
-    >
+    <ul className="nav nav-tabs capsuled" role="tablist" style={{ zIndex: 2 }}>
       <li className="nav-item">
         <NavLink
           className={({ isActive }) =>

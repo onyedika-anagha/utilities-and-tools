@@ -34,7 +34,6 @@ const CryptoConverter = () => {
       from: dataMap[0].symbol,
       to: dataMap[1].symbol,
     });
-    // console.log("arrMap: ", arrMap);
   };
 
   const getData = async () => {
@@ -107,10 +106,6 @@ const CryptoConverter = () => {
         </div>
       </div>
     );
-  console.log("====================================");
-  console.log(selected);
-  console.log("====================================");
-
   return (
     <div id="app-body">
       <ShapeOne />

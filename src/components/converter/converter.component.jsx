@@ -57,7 +57,7 @@ const Converter = ({ type }) => {
                 <div className="exchange-group">
                   <div className="input-col">
                     <input
-                      type="text"
+                      type="number"
                       className="form-control form-control-lg pe-0 border-0"
                       id="fromAmount"
                       placeholder="0"
@@ -110,7 +110,7 @@ const Converter = ({ type }) => {
                 <div className="exchange-group">
                   <div className="input-col">
                     <input
-                      type="text"
+                      type="number"
                       className="form-control form-control-lg pe-0 border-0"
                       id="toAmount"
                       placeholder="0"
